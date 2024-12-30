@@ -13,7 +13,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install -r AWS-Series/main/requirements.txt
+      - pip install -r AWS-Series/blob/main/requirements.txt
   build:
     commands:
       - echo "Running tests..."
